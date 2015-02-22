@@ -1,15 +1,16 @@
 .background-img {
+    /* make sure the background image's div is the same height as viewport */
     height: 100vh;
-/*
+}
+    /* make sure the image is stretched out to cover the whole viewport */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-*/
-/*
-    background-repeat: no-repeat;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
     background-position: center center;
-*/
+
 /*    background-attachment: fixed;*/
 }
 .intro {

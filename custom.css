@@ -77,3 +77,22 @@ h1{
     color: #A9A9A9;
     margin-top: 40%;
 }
+
+
+/* for device that's narrower than 767.9 px, amend previous css with the additional code below */
+@media (max-width: 767.999999px) { 
+    .navbar-default {
+        margin: 2em !important;
+    }
+
+    h1{
+        font-size: 1em;
+        margin-top: 60%;
+    }
+}
+
+
+
+
+
+

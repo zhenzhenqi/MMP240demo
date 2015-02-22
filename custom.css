@@ -1,33 +1,35 @@
 .background-img {
     height: 100vh;
+/*
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+*/
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
-}
-#background-rooftopglasshouse {
-    background-image: url(img/rooftopglasshouse.jpg);
+/*    background-attachment: fixed;*/
 }
 .intro {
-    height: 100vh;
+    height: 70vh;
 }
 #intro #intro-text {
     margin-top: 45%;
 }
-#background-brooklynhotel {
-    background-image: url(img/featuredprojects/brooklynhotel/brooklynhotel.jpg);
+#featured_1 {
+    background-image: url(img/featuredimages/1_feature.jpg);
 }
-#background-centrestreetloft {
-    background-image: url(img/featuredprojects/centrestreetloft/centrestreetloft.jpg);
+#featured_2 {
+    background-image: url(img/featuredimages/2_feature.jpg);
 }
-#background-shorehouse {
-    background-image: url(img/featuredprojects/shorehouse/shorehouse.jpg);
+#featured_3 {
+    background-image: url(img/featuredimages/3_feature.jpg);
 }
-#background-lowline {
-    background-image: url(img/featuredprojects/lowline/lowline.jpg);
+#featured_4 {
+    background-image: url(img/featuredimages/4_feature.jpg);
+}
+#featured_5 {
+    background-image: url(img/featuredimages/5_feature.jpg)
 }
 
 footer{

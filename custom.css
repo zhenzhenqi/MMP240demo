@@ -37,6 +37,15 @@
 
 footer{
     background-color: #F5F5F5;
-    color: black;
-    margin: 20% 0;
+    /* overwrite default margin, so there won't be two white bars above and below footer */
+    margin: 0;
+    /* more breathing room for the footer */
+    padding: 20% 0;
+}
+
+footer h6{
+    font-family: "helvetica neue";
+    /* thinner font weight to match the delicate visual style and subtle background color */
+    font-weight: 300;
+    color: #4c4c4c;
 }

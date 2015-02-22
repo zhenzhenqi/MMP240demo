@@ -36,7 +36,7 @@
 }
 
 footer{
-    background-color: #F5F5F5;
+    background-color: #EEEEEE;
     /* overwrite default margin, so there won't be two white bars above and below footer */
     margin: 0;
     /* more breathing room for the footer */
@@ -48,4 +48,23 @@ footer h6{
     /* thinner font weight to match the delicate visual style and subtle background color */
     font-weight: 300;
     color: #4c4c4c;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 2em 10em;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 200;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 0.7em;
+    color: white;
+    padding: 0 3px;
+    margin: 15px 3px;
+    border: solid 1px white;
 }

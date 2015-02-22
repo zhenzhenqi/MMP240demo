@@ -13,9 +13,7 @@
 
     background-attachment: fixed;
 }
-.intro {
-    height: 70vh;
-}
+
 #intro #intro-text {
     margin-top: 45%;
 }
@@ -50,6 +48,7 @@ footer h6{
     color: #4c4c4c;
 }
 
+/* navbar default controls background color of navbar, and positioning of navbar */
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -67,4 +66,14 @@ footer h6{
     padding: 0 3px;
     margin: 15px 3px;
     border: solid 1px white;
+}
+
+.intro {
+    height: 120vh;
+    background-color: #353535;
+}
+
+h1{
+    color: #A9A9A9;
+    margin-top: 40%;
 }

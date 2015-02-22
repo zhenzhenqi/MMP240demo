@@ -1,7 +1,7 @@
 .background-img {
     /* make sure the background image's div is the same height as viewport */
     height: 100vh;
-}
+
     /* make sure the image is stretched out to cover the whole viewport */
     -webkit-background-size: cover;
     -moz-background-size: cover;

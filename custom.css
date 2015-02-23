@@ -69,13 +69,18 @@ footer h6{
 }
 
 .intro {
-    height: 120vh;
+    height: 140vh;
     background-color: #353535;
 }
 
 h1{
     color: #A9A9A9;
     margin-top: 35%;
+}
+
+h2{
+    color: #A9A9A9;
+    margin-top: 5%;
 }
 
 h3{

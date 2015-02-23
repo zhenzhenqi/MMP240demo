@@ -75,7 +75,7 @@ footer h6{
 
 h1{
     color: #A9A9A9;
-    margin-top: 40%;
+    margin-top: 35%;
 }
 
 h3{
@@ -88,6 +88,20 @@ h3{
 
 #founder>div:first-child{
     margin-top: 20%;
+}
+
+#featured{
+    background-color: white;
+}
+#featured-gallery > div{
+    height: 40vh;
+    /* background:yellow; */
+    text-align:center;
+    list-style-type:none;
+    margin-bottom:0;
+    display:table-cell;
+    vertical-align:bottom;
+    padding:0;
 }
 
 /* for device that's narrower than 767.9 px, amend previous css with the additional code below */

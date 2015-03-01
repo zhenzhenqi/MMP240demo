@@ -157,6 +157,21 @@ h3{
 }
 
 
+#page-contact {
+    background-color: #F63D12;
+}
+
+#page-contact>.container-fluid{
+    margin-top: 10%;
+    margin-left: 12%;
+}
+
+#page-contact address{
+    font-size: 1.2em;
+    font-weight: 100;
+    color: white;
+}
+
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 

@@ -158,6 +158,16 @@ h3{
 
 
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #featured-gallery > div{
+    padding-right:0 !important;
+    padding-left:0 !important;
+    }
+}
+
+
+
 
 
 

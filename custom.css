@@ -69,22 +69,28 @@ footer h6{
 }
 
 .intro {
-    height: 140vh;
+/*    height: 140vh;*/
     background-color: #353535;
 }
 
+
 h1{
     color: #A9A9A9;
-    margin-top: 35%;
+/*    margin-top: 35%;*/
 }
 
 h2{
     color: #A9A9A9;
-    margin-top: 5%;
+/*    margin-top: 5%;*/
 }
 
 h3{
     color: #A9A9A9;
+}
+
+#tagline h1{
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
 
 #founder{
@@ -94,19 +100,20 @@ h3{
 #founder>div:first-child{
     margin-top: 20%;
 }
+#founder>div:nth-child(2){
+    margin-bottom: 20%;
+}
 
 #featured{
     background-color: white;
+    margin-top: 20%;
+    margin-bottom: 30%;
 }
-#featured-gallery > div{
-    height: 40vh;
-    /* background:yellow; */
-    text-align:center;
-    list-style-type:none;
-    margin-bottom:0;
-    display:table-cell;
-    vertical-align:bottom;
-    padding:0;
+
+
+#video h2{
+    margin-top: 5%;
+    margin-bottom: 20%;
 }
 
 /* for device that's narrower than 767.9 px, amend previous css with the additional code below */
@@ -127,6 +134,25 @@ h3{
 
     #founder img{
         margin-top: 40%;
+    }
+
+    #founder {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #featured{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #featured-gallery > div{
+    padding-right:0;
+    padding-left:0;
+    }
+
+    #video h2{
+        font-size: 1.5em;
     }
 }
 

@@ -19,6 +19,10 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
             <!-- Scrollr.js a jquery library that makes one-page scrolldown design easier to implement-->
             <script src="lib/skrollr.min.js"></script>
+            <!-- Google MAP api customization -->
+            <script src="https://maps.googleapis.com/maps/api/js"></script>
+            <!-- custom jQuery -->
+            <script src="custom.js"></script>
         </head>
 
 
@@ -51,7 +55,7 @@
             </nav>
 
             <div class="container-fluid">
-                  <div class="row">
+                  <div class="row" id="address">
                         <address>
                             <strong>Twitter, Inc.</strong><br>
                             795 Folsom Ave, Suite 600<br>
@@ -64,8 +68,8 @@
                             <a href="mailto:#">first.last@example.com</a>
                       </address>
                   </div>
-                  <div class="row">
-                        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=199%20Chambers%20Street%2C%20New%20York%2C%20NY%2C%20United%20States&key=AIzaSyALaQhd3C7Tsz77HTHNJfiaw37EM4LQNZE"></iframe>
+                  <div class="row" id="map-canvas">
+                       <!--  <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=199%20Chambers%20Street%2C%20New%20York%2C%20NY%2C%20United%20States&key=AIzaSyALaQhd3C7Tsz77HTHNJfiaw37EM4LQNZE"></iframe> -->
                   </div>
             </div>
         </body>

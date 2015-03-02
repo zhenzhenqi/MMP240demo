@@ -161,9 +161,9 @@ h3{
     background-color: #F63D12;
 }
 
-#page-contact>.container-fluid{
+#page-contact #address{
     margin-top: 10%;
-    margin-left: 12%;
+    margin-left: 10%;
 }
 
 #page-contact address{
@@ -177,6 +177,12 @@ h3{
     text-decoration: underline;
 }
 
+#page-contact #map-canvas{
+    width: 100vw;
+    height:65vh;
+    margin-top: 5%;
+    padding: 0;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 

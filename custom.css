@@ -172,8 +172,9 @@ h3{
     color: white;
 }
 
-#page-contact a{
-    color: black;
+#page-contact address a{
+    color: white;
+    text-decoration: underline;
 }
 
 

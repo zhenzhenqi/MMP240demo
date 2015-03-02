@@ -172,6 +172,10 @@ h3{
     color: white;
 }
 
+#page-contact a{
+    color: black;
+}
+
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 

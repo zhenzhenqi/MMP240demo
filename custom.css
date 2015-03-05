@@ -116,9 +116,6 @@ h3{
     margin-bottom: 20%;
 }
 
-
-
-
 #page-contact {
     background-color: #F63D12;
     height: 100vh;
@@ -148,6 +145,33 @@ h3{
     margin-top: 5%;
     padding: 0;
 }
+
+#team #teampicture{
+    background-image: url(img/team/intro.jpg);
+}
+
+#team #teampicture h2{
+    color: white;
+    margin: 1em 0;
+}
+#team #teampicture p{
+    color: white;
+}
+#team #teamintro {
+    background-color: #3E3025;
+    opacity: 0.8;
+    margin-top: 10%;
+    padding: 3em;
+}
+#team #teamintro #address{
+    color: white;
+    padding: 2em 0.5em;
+}
+#team #teamintro #address a{
+    color: white;
+    text-decoration: underline;
+}
+
 
 /* for device that's narrower than 767.9 px, amend previous css with the additional code below */
 @media (max-width: 767.999999px) { 

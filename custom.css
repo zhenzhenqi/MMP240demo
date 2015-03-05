@@ -1,58 +1,66 @@
-p{
+p {
     font-size: 12px;
 }
 
 .background-img {
     /* make sure the background image's div is the same height as viewport */
+    
     height: 100vh;
-
     /* make sure the image is stretched out to cover the whole viewport */
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    
     background-position: center center;
-
     background-attachment: fixed;
 }
 
 #intro #intro-text {
     margin-top: 45%;
 }
+
 #featured_1 {
     background-image: url(img/featuredimages/1_feature.jpg);
 }
+
 #featured_2 {
     background-image: url(img/featuredimages/2_feature.jpg);
 }
+
 #featured_3 {
     background-image: url(img/featuredimages/3_feature.jpg);
 }
+
 #featured_4 {
     background-image: url(img/featuredimages/4_feature.jpg);
 }
+
 #featured_5 {
     background-image: url(img/featuredimages/5_feature.jpg)
 }
 
-footer{
+footer {
     background-color: #EEEEEE;
     /* overwrite default margin, so there won't be two white bars above and below footer */
+    
     margin: 0;
     /* more breathing room for the footer */
+    
     padding: 20% 0;
 }
 
-footer h6{
+footer h6 {
     font-family: "helvetica neue";
     /* thinner font weight to match the delicate visual style and subtle background color */
+    
     font-weight: 300;
     color: #4c4c4c;
 }
-
 /* navbar default controls background color of navbar, and positioning of navbar */
+
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -73,49 +81,49 @@ footer h6{
 }
 
 .intro {
-/*    height: 140vh;*/
+    /*    height: 140vh;*/
+    
     background-color: #353535;
 }
 
-
-h1{
+h1 {
     color: #A9A9A9;
-/*    margin-top: 35%;*/
+    /*    margin-top: 35%;*/
 }
 
-h2{
+h2 {
     color: #A9A9A9;
-/*    margin-top: 5%;*/
+    /*    margin-top: 5%;*/
 }
 
-h3{
+h3 {
     color: #A9A9A9;
 }
 
-#tagline h1{
+#tagline h1 {
     margin-top: 50%;
     margin-bottom: 50%;
 }
 
-#founder{
+#founder {
     background-color: white;
 }
 
-#founder>div:first-child{
+#founder>div:first-child {
     margin-top: 20%;
 }
-#founder>div:nth-child(2){
+
+#founder>div:nth-child(2) {
     margin-bottom: 20%;
 }
 
-#featured{
+#featured {
     background-color: white;
     margin-top: 20%;
     margin-bottom: 30%;
 }
 
-
-#video h2{
+#video h2 {
     margin-top: 5%;
     margin-bottom: 20%;
 }
@@ -126,119 +134,119 @@ h3{
     overflow: hidden;
 }
 
-#page-contact #address{
+#page-contact #address {
     margin-top: 100px;
-/*    margin-top: 10%;*/
+    /*    margin-top: 10%;*/
+    
     margin-left: 10%;
 }
 
-#page-contact address{
+#page-contact address {
     font-size: 1.2em;
     font-weight: 100;
     color: white;
 }
 
-#page-contact address a{
+#page-contact address a {
     color: white;
     text-decoration: underline;
 }
 
-#page-contact #map-canvas{
+#page-contact #map-canvas {
     width: 100vw;
-    height:65vh;
+    height: 65vh;
     margin-top: 5%;
     padding: 0;
 }
 
-#team #teampicture{
+#team #teampicture {
     background-image: url(img/team/intro.jpg);
 }
 
-#team #teampicture h2{
+#team #teampicture h2 {
     color: white;
     margin: 1em 0;
 }
-#team #teampicture p{
+
+#team #teampicture p {
     color: white;
 }
+
 #team #teamintro {
     background-color: #3E3025;
     opacity: 0.8;
     margin-top: 10%;
     padding: 3em;
 }
-#team #teamintro #address{
+
+#team address {
     color: white;
     padding: 2em 0.5em;
 }
-#team #teamintro #address a{
+
+#team address a {
     color: white;
     text-decoration: underline;
 }
 
-#team #introtext{
+#team #introtext {
     margin: 10em 0;
+/*
+    background-image: url(img/team/triangle.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+*/
 }
 
-#team #introtext p{
-    padding: 3em 0.7em;
-}
-#team #introtext>div>div{
-/*    border-left: 5px solid rgba(0, 0, 0, 0.2);*/
-/*    padding: 3em 0.7em;*/
+#team #introtext p {
+    padding: 1em 0.7em;
 }
 
-
+#team #hireus {
+    margin: 10%;
+    background-color: #53473F;
+}
 /* for device that's narrower than 767.9 px, amend previous css with the additional code below */
-@media (max-width: 767.999999px) { 
+
+@media (max-width: 767.999999px) {
     .navbar-default {
         margin: 2em !important;
     }
-
-    h1{
+    h1 {
         font-size: 1.6em;
         margin-top: 60%;
     }
-
-    h3{
+    h3 {
         font-size: 1.2em;
         margin-top: 30%;
     }
-
-    #founder img{
+    #founder img {
         margin-top: 40%;
     }
-
     #founder {
         margin-left: 2%;
         margin-right: 2%;
     }
-
-    #featured{
+    #featured {
         margin-left: 5%;
         margin-right: 5%;
     }
-
-    #featured-gallery > div{
-    padding-right:0;
-    padding-left:0;
+    #featured-gallery > div {
+        padding-right: 0;
+        padding-left: 0;
     }
-
-    #video h2{
+    #video h2 {
         font-size: 1.5em;
     }
-}
+    
 
+}
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    #featured-gallery > div{
-    padding-right:0 !important;
-    padding-left:0 !important;
+
+@media (min-width: 768px) {
+    #featured-gallery > div {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
     }
 }
-
-
-
-
-
-

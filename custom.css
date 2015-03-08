@@ -209,6 +209,24 @@ h3 {
 }
 /* for device that's narrower than 767.9 px, amend previous css with the additional code below */
 
+#work img{
+    padding-top: 1em;
+}
+
+#work .bottom{
+    vertical-align: bottom;
+}
+
+#work .middle{
+    vertical-align: middle;
+}
+
+#work-gallery>div>div{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
 @media (max-width: 767.999999px) {
     .navbar-default {
         margin: 2em !important;

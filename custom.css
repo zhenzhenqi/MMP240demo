@@ -208,6 +208,9 @@ h3 {
     background-color: #53473F;
 }
 /* for device that's narrower than 767.9 px, amend previous css with the additional code below */
+#work{
+    margin: 5em 0;
+}
 
 #work img{
     padding-top: 1em;
@@ -225,6 +228,28 @@ h3 {
     padding-left: 7px;
     padding-right: 7px;
 }
+
+#work .bg-ivory{
+    background-color: #EEEEEE;
+}
+
+#work .bg-orange{
+    background-color: #F63D12;
+}
+
+#work #twocolumnlayout>div>div{
+    padding: 2em;
+    margin-top: 1em;
+}
+
+#work #twocolumnlayout h4{
+    color:white;
+    background-color: black;
+    padding: 5em 1em;
+    
+}
+
+
 
 
 @media (max-width: 767.999999px) {

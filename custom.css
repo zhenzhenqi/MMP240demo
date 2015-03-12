@@ -204,10 +204,10 @@ h3 {
 }
 
 #team #hireus {
-    margin: 10%;
+    margin: 10em 1em;
     background-color: #53473F;
 }
-/* for device that's narrower than 767.9 px, amend previous css with the additional code below */
+
 #work{
 /*    margin: 5em 0;*/
 }

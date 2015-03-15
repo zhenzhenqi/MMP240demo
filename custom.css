@@ -231,7 +231,7 @@ h3 {
 }
 
 #work #irregulargallery{
-    background-color: rgba(83, 71, 63, 0.1);
+/*    background-color: rgba(83, 71, 63, 0.1);*/
     padding: 5em 0;
 }
 
@@ -252,9 +252,7 @@ h3 {
     background-color: rgba(83, 71, 63, 0.29);
 }
 
-#work #twocolumnlayout {
-    margin: 5em 0;
-}
+
 
 #work #twocolumnlayout>div>div{
     padding: 2em;
@@ -266,6 +264,19 @@ h3 {
     background-color: black;
     padding: 5em 1em;
     
+}
+
+
+#work #carousel-example-generic{
+    margin:0 0 5em 0;
+}
+
+#work #carousel-example-generic img{
+    height: 80%;
+}
+
+#work #carouselcontainer{
+    padding: 0;
 }
 
 

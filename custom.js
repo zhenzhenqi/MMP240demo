@@ -131,6 +131,6 @@ function toggleBounce() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
 $('.carousel').carousel({
-    interval: 500
+    interval: 200
 })
 

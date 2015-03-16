@@ -243,14 +243,17 @@ h3 {
 
 #work .bg-ivory {
     background-color: #EEEEEE;
+    position: relative;
 }
 
 #work .bg-orange {
     background-color: #F63D12;
+    position: relative;
 }
 
 #work .bg-brown {
     background-color: rgba(83, 71, 63, 0.29);
+    position: relative;
 }
 
 #work #twocolumnlayout img {
@@ -261,19 +264,23 @@ h3 {
 }
 
 #work #twocolumnlayout img:hover {
-    opacity: 0.5;
-    -webkit-filter: blur(1px);
+    opacity: 0.3;
+    -webkit-filter: blur(3px);
     /* Prefixed CSS3 blur filters */
     
-    -moz-filter: blur(1px);
-    -o-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
     /* Safari */
 }
 
 #work .hide-title  > h5 {
+    color: black;
     opacity: 0;
+    position: absolute;
+    left: 38%;
+    top: 45%;
 }
 
 #work #twocolumnlayout>div>div {

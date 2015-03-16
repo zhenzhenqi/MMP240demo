@@ -2,14 +2,35 @@ var map;
 var chicago = new google.maps.LatLng(40.715411, -74.008429);
 var marker;
 
-$(documen).ready(function(){
-    $('#tribeca-loft').mouseenter(function(){
-        
+$(document).ready(function () {
+    //    $('#tribeca-loft img').mouseenter(function () {
+    //        //        $('#tribeca-loft h5').css("opacity", "1");
+    //        $('#tribeca-loft h5').animate({
+    //            "opacity": "1"
+    //        }, 800);
+    //    });
+    //
+    //    $('#tribeca-loft img').mouseleave(function () {
+    //        $('#tribeca-loft h5').animate({
+    //            opacity: 0
+    //        }, 800);
+    //
+    //    });
+
+    $('.hide-title img').mouseenter(function () {
+        $(this).siblings().animate({
+            "opacity": "1"
+        }, 800)
     });
-    
-     $('#tribeca-loft').mouseenter(function(){
+
+    $('.hide-title img').mouseleave(function () {
+        $(this).siblings().animate({
+            "opacity": "0"
+        }, 800);
     });
+
 });
+
 
 
 function initialize() {
@@ -142,5 +163,3 @@ google.maps.event.addDomListener(window, 'load', initialize);
 $('.carousel').carousel({
     interval: 200
 })
-
-

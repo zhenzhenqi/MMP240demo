@@ -191,7 +191,7 @@ h3 {
 
 #team #introtext {
     margin: 10em 0;
-/*
+    /*
     background-image: url(img/team/triangle.png);
     background-size: 60% 60%;
     background-repeat: no-repeat;
@@ -208,79 +208,96 @@ h3 {
     background-color: #53473F;
 }
 
-#work{
-/*    margin: 5em 0;*/
+#work {
+    /*    margin: 5em 0;*/
 }
 
-#work nav{
+#work nav {
     background-color: black;
     margin: 0;
 }
 
-#work img{
+#work img {
     padding-top: 1em;
     width: 100%;
 }
 
-#work .bottom{
+#work .bottom {
     vertical-align: bottom;
 }
 
-#work .middle{
+#work .middle {
     vertical-align: middle;
 }
 
-#work #irregulargallery{
-/*    background-color: rgba(83, 71, 63, 0.1);*/
+#work #irregulargallery {
+    /*    background-color: rgba(83, 71, 63, 0.1);*/
+    
     padding: 5em 0;
 }
 
-#work-gallery>div>div{
+#work-gallery>div>div {
     padding-left: 7px;
     padding-right: 7px;
 }
 
-#work .bg-ivory{
+#work .bg-ivory {
     background-color: #EEEEEE;
 }
 
-#work .bg-orange{
+#work .bg-orange {
     background-color: #F63D12;
 }
 
-#work .bg-brown{
+#work .bg-brown {
     background-color: rgba(83, 71, 63, 0.29);
 }
 
+#work #twocolumnlayout img {
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    /* Safari */
+}
 
+#work #twocolumnlayout img:hover {
+    opacity: 0.5;
+    -webkit-filter: blur(1px);
+    /* Prefixed CSS3 blur filters */
+    
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    /* Safari */
+}
 
-#work #twocolumnlayout>div>div{
+#work .hide-title  > h5 {
+    opacity: 0;
+}
+
+#work #twocolumnlayout>div>div {
     padding: 2em;
     margin-top: 1em;
 }
 
-#work #twocolumnlayout h4{
-    color:white;
+#work #twocolumnlayout h4 {
+    color: white;
     background-color: black;
     padding: 5em 1em;
-    
 }
 
-
-#work #carousel-example-generic{
-    margin:0 0 5em 0;
+#work #carousel-example-generic {
+    margin: 0 0 5em 0;
 }
 
-#work #carouselcontainer{
+#work #carouselcontainer {
     padding: 0;
 }
 
-
-
-
 @media (max-width: 767.999999px) {
     .navbar-default {
-/*        margin: 2em !important;*/
+        /*        margin: 2em !important;*/
     }
     h1 {
         font-size: 1.6em;
@@ -308,8 +325,6 @@ h3 {
     #video h2 {
         font-size: 1.5em;
     }
-    
-
 }
 /* Small devices (tablets, 768px and up) */
 

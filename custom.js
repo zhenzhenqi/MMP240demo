@@ -2,6 +2,15 @@ var map;
 var chicago = new google.maps.LatLng(40.715411, -74.008429);
 var marker;
 
+$(documen).ready(function(){
+    $('#tribeca-loft').mouseenter(function(){
+        
+    });
+    
+     $('#tribeca-loft').mouseenter(function(){
+    });
+});
+
 
 function initialize() {
     var roadAtlasStyles = [
@@ -133,4 +142,5 @@ google.maps.event.addDomListener(window, 'load', initialize);
 $('.carousel').carousel({
     interval: 200
 })
+
 

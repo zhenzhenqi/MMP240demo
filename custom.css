@@ -15,7 +15,7 @@ p {
     /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
     
     background-position: center center;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
 }
 
 #intro #intro-text {
@@ -256,6 +256,7 @@ h3 {
     position: relative;
 }
 
+/*
 #work .hide-title > h5 {
     color: black;
     opacity: 0;
@@ -263,6 +264,7 @@ h3 {
     left: 38%;
     top: 45%;
 }
+*/
 
 #work #twocolumnlayout>div>div {
     padding: 2em;

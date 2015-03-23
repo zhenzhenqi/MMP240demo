@@ -15,7 +15,7 @@ p {
     /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
     
     background-position: center center;
-/*    background-attachment: fixed;*/
+    /*    background-attachment: fixed;*/
 }
 
 #intro #intro-text {
@@ -60,7 +60,10 @@ footer h6 {
     color: #4c4c4c;
 }
 /* navbar default controls background color of navbar, and positioning of navbar */
-
+nav {
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 0.4s;
+}
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -256,7 +259,6 @@ h3 {
     position: relative;
 }
 
-/*
 #work .hide-title > h5 {
     color: black;
     opacity: 0;
@@ -264,7 +266,6 @@ h3 {
     left: 38%;
     top: 45%;
 }
-*/
 
 #work #twocolumnlayout>div>div {
     padding: 2em;
@@ -292,7 +293,7 @@ h3 {
     /* Safari */
 }
 
-#work #twocolumnlayout img:hover {
+#work #twocolumnlayout >div>div>img:hover {
     opacity: 0.3;
     -webkit-filter: blur(3px);
     /* Prefixed CSS3 blur filters */
@@ -302,6 +303,10 @@ h3 {
     -ms-filter: blur(3px);
     filter: blur(3px);
     /* Safari */
+}
+
+#work .modal-body button {
+/*    position: absolute;*/
 }
 
 @media (max-width: 767.999999px) {

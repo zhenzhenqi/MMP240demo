@@ -60,10 +60,12 @@ footer h6 {
     color: #4c4c4c;
 }
 /* navbar default controls background color of navbar, and positioning of navbar */
+
 nav {
     -webkit-animation-duration: 5s;
     -webkit-animation-delay: 0.4s;
 }
+
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -116,8 +118,19 @@ h3 {
     margin-top: 20%;
 }
 
+#founder h3 {
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+}
+
 #founder>div:nth-child(2) {
     margin-bottom: 20%;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    -ms-animation-duration: 3s;
 }
 
 #featured {
@@ -306,7 +319,7 @@ h3 {
 }
 
 #work .modal-body button {
-/*    position: absolute;*/
+    /*    position: absolute;*/
 }
 
 @media (max-width: 767.999999px) {

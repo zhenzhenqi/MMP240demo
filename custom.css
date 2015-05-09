@@ -1,3 +1,29 @@
+.navbar {
+     position: absolute !important;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 0.4s;
+    z-index: 100;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 2em 5em;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 200;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 0.7em;
+    color: white;
+    padding: 0 3px;
+    margin: 15px 3px;
+    border: solid 1px white;
+}
+
 p {
     font-size: 12px;
 }
@@ -61,33 +87,7 @@ footer h6 {
 }
 /* navbar default controls background color of navbar, and positioning of navbar */
 
-nav {
-    -webkit-animation-duration: 5s;
-    -webkit-animation-delay: 0.4s;
-}
-
-.navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-    margin: 2em 10em;
-}
-
-.navbar-brand {
-    color: white !important;
-    font-weight: 200;
-}
-
-.navbar-default .navbar-nav>li>a {
-    font-size: 0.7em;
-    color: white;
-    padding: 0 3px;
-    margin: 15px 3px;
-    border: solid 1px white;
-}
-
 .intro {
-    /*    height: 140vh;*/
-    
     background-color: #353535;
 }
 
@@ -175,6 +175,10 @@ h3 {
     padding: 0;
 }
 
+#team nav {
+    position: absolute;
+}
+
 #team #teampicture {
     background-image: url(img/team/intro.jpg);
 }
@@ -224,18 +228,20 @@ h3 {
     background-color: #53473F;
 }
 
-#work {
-    /*    margin: 5em 0;*/
-}
-
 #work nav {
-    background-color: black;
-    margin: 0;
+    position: absolute;
 }
 
-#work img {
-    padding-top: 1em;
+#work nav img {
     width: 100%;
+}
+
+#work .navbar-brand {
+    color: black !important;
+}
+
+#work .navbar-default .navbar-nav>li>a {
+    color: black;
 }
 
 #work .bottom {
@@ -324,7 +330,7 @@ h3 {
 
 @media (max-width: 767.999999px) {
     .navbar-default {
-        /*        margin: 2em !important;*/
+        margin: 2em !important;
     }
     h1 {
         font-size: 1.6em;

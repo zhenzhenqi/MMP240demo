@@ -1,6 +1,19 @@
 $(document).ready(function () {
+    console.log("loaded");
     $("nav").addClass('animated fadeIn');
     $("#featured_1").addClass('animated fadeInRight');
+    
+    $('#founder img').on('mouseover' , function(){
+        string name = "Hel
+        //Display the information in the list item (inside a span that can be referred to later)
+        $('#founder p').append("<strong>Hello</strong>");
+    });
+    
+     $('#founder img').on('mousout' , function(){
+        //Display the information in the list item (inside a span that can be referred to later)
+        $('#founder p').remove("");
+    });
+  
 });
 
 
@@ -12,7 +25,7 @@ $(window).scroll(function(){
 //    console.log(how_much_document_scrolled);
     
     var h1_offset_top = $('#tagline h1').offset().top;
-     console.log(h1_offset_top);
+//     console.log(h1_offset_top);
     
 //    console.log(how_much_document_scrolled + "," + h1_offset_top);
     
@@ -26,3 +39,5 @@ $(window).scroll(function(){
         $('#founder h3').addClass('animated lightSpeedIn');
     }
 });
+
+
